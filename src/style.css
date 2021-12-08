@@ -1,0 +1,87 @@
+/* lien : https://www.youtube.com/watch?v=QxMBHi_ZiT8&t=203s */
+
+body{
+    background-color: rgba(250, 219, 216);
+    
+}     
+
+.boite{
+
+    max-width: 430px;
+    margin: 150px auto;
+}
+
+.boite .barre{
+    position: relative;
+    background :rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+    
+}
+
+.barre input{
+    height: 55px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+}
+
+.barre .loupe{
+
+    height: 10px;
+    width: 55px;
+    line-height: 55px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(250, 219, 216);
+    cursor: pointer;
+}
+
+.barre .suggestionliste{
+    /*padding: 10px 8px;*/
+    max-height: 280px;
+    overflow-y: auto;
+    opacity:0;
+    pointer-events:none;
+
+}
+
+.barre.active .suggestionliste{
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+
+.suggestionliste li{
+    list-style: none;
+    padding: 8px 12px;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+    display: none;
+
+}
+
+
+.barre.active .suggestionliste li{
+    display: block;
+    
+}
+
+.suggestionliste li:hover{
+    background: rgb(227, 231, 236);
+
+}
+
+.msg{
+    color: red;
+}
