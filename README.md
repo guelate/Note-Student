@@ -2,7 +2,7 @@
 
 __Scrapper-notes-student__
 
-Le but de ce projet est de pouvoir récupérer les notes d'un ensemble d'étudiant à partir d'un objet créé. 
+Le but de ce projet est de pouvoir récupérer les notes d'un ensemble d'étudiants à partir d'un objet créé. 
 Ensuite de pouvoir générer un tableau avec la moyenne de chaque matière pour l'étudiant sélectionné de l'ensemble .
 
 (pas encore finit )
