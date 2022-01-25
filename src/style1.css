@@ -1,0 +1,63 @@
+body{
+    background-color: rgba(250, 219, 216);
+}
+
+* {
+    font-family: 'Dongle', sans-serif; /* Change police */
+
+}
+
+.table {
+
+    background-color: white;
+    border-collapse: collapse; /*détermine si les bordure entre les cellules sont séparé ou pas collapse/separate*/
+    margin: 10% 22%; /* voir mdn margin : détermine les marges -> dans ce cas vu que on a margin (x x) = vertical/horizontale */
+    font-size: 35px; /* Taille de la police */
+    width: 55%; /*définit la largeur*/
+    border-radius: 10px; /* définit les coins arrondie */
+    overflow: hidden; /*voir mdn : gère le déplacement dun contenu dans son bloc (référence au scroll)*/
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /*ajoute des ombres autour de l'élément(vers D, vers bas, Autour seulement) */
+}
+
+.table thead tr{
+
+    background-color:  rgb(230, 62, 140);
+    color: #ffffff;
+}
+  
+
+.table .Notes{
+    position: absolute; /* positionne de manière clair */
+    left : 800px;
+}
+ 
+.table th, 
+.table td {
+  padding: 12px 15px; /*définit les écart : vertical/horizontal entre l'élément et sa bordure */
+} /* pour bien comprendre ouvrir la console mettre le curseur sur une ligne et sa cellule(dans le html de la console) puis analyser */
+
+.table tbody tr {
+  border-bottom: 1px solid #9b9a9a; /* définit la bordure du coté bas d'un élément*/
+}
+
+.table tbody tr:last-of-type { /* cible le dernier élément d'une liste */
+    border-bottom: 2px solid  rgb(230, 62, 140);
+  
+}
+
+.prénom{
+
+  position: absolute;
+  left : 37%; top : 55px;
+  font-size: 30px;
+}
+
+.moyenne{
+
+  position: absolute;
+  left: 85%; top : 90%;
+  font-size: 25px;
+}
+
+/* px apporte plus de précision que % */
+/* Police avec : Google Fonts */

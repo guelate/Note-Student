@@ -6,7 +6,7 @@ let intervalMAX = (min,max) => {
 
 let etudiants = {
 
-    15914230 : {
+    Coyce : {
         note : {
             Anglais : {
                 2 : [intervalMAX(5,10),intervalMAX(8,11),intervalMAX(0,20),intervalMAX(0,20),intervalMAX(0,20)],
@@ -23,7 +23,7 @@ let etudiants = {
         },
     },
 
-    20135544 : {
+    Carla : {
 
         note : {
             anglais : {
@@ -41,7 +41,7 @@ let etudiants = {
         },
     },
 
-    16234354 : {
+    Brice : {
 
         note : {
             Anglais : {
@@ -59,7 +59,7 @@ let etudiants = {
         },
     },
 
-    20324454 : {
+    Paul : {
         note : {
             Anglais : {
                 2 : [intervalMAX(0,20),intervalMAX(0,20),intervalMAX(0,20),intervalMAX(0,20),intervalMAX(0,20)],
@@ -79,7 +79,7 @@ let etudiants = {
 
 let matières = []; // tab matiere construite .
 let notesTab = []; // tab de notes construite .
-let taille = []; // tab de nb de note / matière.
+let taille = []; // tab de nb de note par matières pour l'ensemble des étudiants.
 let listeEtu = []; // tab d'étudiant.
 
 
@@ -106,5 +106,6 @@ let Parcour = () => Object.keys(etudiants).forEach(e => {
 });
 
 Parcour();
+console.log(listeEtu);
 
 export { etudiants , matières , notesTab , taille , listeEtu, intervalMAX, Parcour };

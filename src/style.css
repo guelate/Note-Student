@@ -1,7 +1,13 @@
 /* lien : https://www.youtube.com/watch?v=QxMBHi_ZiT8&t=203s */
 
 body{
+
     background-color: rgba(250, 219, 216);
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
     
 }     
 
@@ -13,6 +19,7 @@ body{
 
 .boite .barre{
     position: relative;
+    top : 100px;
     background :rgb(255, 255, 255);
     width: 100%;
     border-radius: 5px;
@@ -20,6 +27,7 @@ body{
     
 }
 
+/*essayer de descendre un peu la barre */
 .barre input{
     height: 55px;
     width: 100%;
@@ -40,7 +48,7 @@ body{
     right: 0;
     text-align: center;
     font-size: 20px;
-    color: rgba(250, 219, 216);
+    color: rgb(230, 62, 140);
     cursor: pointer;
 }
 
@@ -83,5 +91,43 @@ body{
 }
 
 .msg{
+    position: absolute;
+    top : 365px; left : 670px;
     color: red;
+    
+}
+/* partie avec canvas */
+
+#canvas{
+
+    position: absolute;
+    top : 540px; left  : 0%;
+    border: 1px solid black;
+}
+
+/*partie avec balise */
+#classe{
+    
+    position: absolute;
+    /* top: 650px; left: 40%;  */
+
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+}
+
+#corp{
+
+    position: absolute;
+    left : 0px; top :92%;
+    width: 1534px;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+
+#pause{
+
+    position: absolute;
+    top : 20px; left: 95%;
+    color: rgb(230, 62, 140);
+    font-size: 190%;
 }
