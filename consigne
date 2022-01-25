@@ -1,0 +1,8 @@
+consige :
+
+- entrer le num d'un étudiant dans la barre de recherche et faire sortir son tableau de note et moyenne ( avec coeff) .
+- essayer de présenter un tab en grille (avec ligne et colonne visible) .
+- Ne pas obtenir d'affichage sans numéro entrer dans la barre .
+
+dans le readmee : indiquer qu'il faut commencer le num par 1/2 pour avoir une
+bonne recherche
